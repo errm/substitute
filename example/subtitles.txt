@@ -1,0 +1,11 @@
+2 00:02:47:02 00:02:49:09 Open the pod bay doors, please, HAL.
+Open the pod bay doors, please, HAL. 
+Hello, HAL. Do you read me? 
+Hello, HAL. Do you read me? 
+Do you read me, HAL?
+3 00:02:49:21 00:02:52:08 Affirmative, Dave. I read you.
+4 00:03:17:12 00:03:19:05 Open the pod bay doors, HAL.
+5 00:03:19:15 00:03:21:00 I'm sorry, Dave. I'm afraid I can't do that.
+6 00:03:23:24 00:03:25:06 What's the problem?
+7 00:05:09:10 00:05:10:10 I think you know what the problem is just as well as I do.
+8 00:05:12:22 00:05:13:22 What are you talking about, HAL?

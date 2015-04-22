@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require 'substitute/line'
+
+STDOUT.puts 'WEBVTT'
+while (line = STDIN.gets)
+  STDOUT.puts Substitute::Line.new(line)
+end
