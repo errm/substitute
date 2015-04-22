@@ -14,7 +14,7 @@ Substitute reads from standard in and writes to standard out.
 
 For example:
 
-```bash
+```
 $ substitute < example/subtitles.txt
 WEBVTT
 
@@ -53,7 +53,7 @@ What are you talking about, HAL?
 
 Or write to a file
    
-   $ substitute < subtitles.txt > subtitles.vtt
+`$ substitute < subtitles.txt > subtitles.vtt`
 
 ## Development
 
