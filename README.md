@@ -1,5 +1,10 @@
 # Substitute
 
+[![Build Status](https://travis-ci.org/errm/substitute.svg?branch=master)](https://travis-ci.org/errm/substitute)
+[![Gem Version](https://badge.fury.io/rb/substitute.svg)](http://badge.fury.io/rb/substitute)
+[![Code Climate](https://codeclimate.com/github/errm/substitute/badges/gpa.svg)](https://codeclimate.com/github/errm/substitute)
+[![Test Coverage](https://codeclimate.com/github/errm/substitute/badges/coverage.svg)](https://codeclimate.com/github/errm/substitute)
+
 Converts from Adobe Encore Text Scripts to [WebVTT](http://dev.w3.org/html5/webvtt/) format
 
 ## Installation
