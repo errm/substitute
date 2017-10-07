@@ -2,7 +2,14 @@
 
 require 'substitute/line'
 
-STDOUT.puts 'WEBVTT'
+options = {}
+
+if ARGV[0].chomp == "srt"
+  options[:srt] = true
+end
+
+STDOUT.puts 'WEBVTT' unless options[:srt]
+
 while (line = STDIN.gets)
-  STDOUT.puts Substitute::Line.new(line)
+  STDOUT.puts Substitute::Line.new(line, options)
 end

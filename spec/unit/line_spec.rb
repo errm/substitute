@@ -42,5 +42,18 @@ describe Substitute::Line do
         expect(subject.to_s).to eq line
       end
     end
+
+    context 'srt' do
+      subject { described_class.new(line, srt: true) }
+
+      context 'A line with identifiers and timestamps' do
+        let(:line) { '1 00:00:19:17 00:00:22:01 This is the start of a film' }
+
+        it 'formats the timestamps correctly' do
+          expect(output[2]).to eq '00:00:19,680 --> 00:00:22,040'
+        end
+      end
+    end
   end
+
 end
