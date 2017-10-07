@@ -1,4 +1,4 @@
-require 'substitute/version'
+require "substitute/version"
 
 module Substitute
 end

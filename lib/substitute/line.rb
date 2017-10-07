@@ -16,7 +16,7 @@ module Substitute
     end
 
     def parts
-      @_parts ||= text.split(' ')
+      @_parts ||= text.split(" ")
     end
 
     def identifier
@@ -32,10 +32,10 @@ module Substitute
     end
 
     def convert_timestamp(timestamp)
-      times = timestamp.split(':')
+      times = timestamp.split(":")
       frames = times[3].to_i
-      thous = (frames * 40).to_s.rjust(3, '0')
-      "#{times[0..2].join(':')}#{sep}#{thous}"
+      thous = (frames * 40).to_s.rjust(3, "0")
+      "#{times[0..2].join(":")}#{sep}#{thous}"
     end
 
     def sep
@@ -44,7 +44,7 @@ module Substitute
     end
 
     def remaining_text
-      parts[3..-1].join(' ')
+      parts[3..-1].join(" ")
     end
 
     def line_with_identifier?
